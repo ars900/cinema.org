@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.login_form{
+	padding:30px;
+	width:30%;
+	margin:100px auto;
+	border:1px solid #666;
+}
+.header_fixed{
+	padding:20px 0;
+}
+.nav_fixed{
+	width:16.6%;
+	left:0;
+	top:80px;
+	height:calc(100% - 80px);
+}
+.nav_fixed ul{
+	list-style:none;
+	padding:0 0 0 50px !important;
+}
+.nav_fixed a{
+	color:#fff;
+	text-decoration:none;
+	line-height:30px;
+}
+.nav_fixed a:hover{
+	text-decoration:underline;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+.header_box{
+	padding: 18px 0;
+	background: linear-gradient(to bottom, #6c757d -34%, #ffffff 90%);
+}
+
+.img_parent_background{
+	 background: linear-gradient(to bottom, #6c757d -218%, #ffffff 104%);
+}
+
+.margin_soc{
+	margin: 5px 0;
+}
+
+.social_parent:hover #social_img{
+	transition: 0.5s ease-out;
+	filter:blur(2px);
+}
+
+#social_img{
+	transition: 0.5s ease-out;
+}
+
+.white{
+	color: white;
+}
+
+.social_parent:hover .social{
+	transition: 0.5s ease-out;
+	opacity: 0.5;
+}
+
+.social_parent:hover .aye{
+	opacity: 1;
+}
+
+.social_parent:hover{
+	cursor: pointer;
+}
+
+.branding_more_1{
+	position: absolute;
+	top: 352px;
+	left: 30px;
+    width: 156px;
+    height: 50px;
+	transition: top 0.7s;
+}
+
+.social_parent:hover .branding_more_1{
+	top: 430px;
+}
+
+.social{
+	width: 95%;
+    height: 95%;
+    background: #323232;
+    opacity: 0.0;
+    transition: all 0.7s;
+}
+
+.aye{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	width: 55px;
+	height: 55px;
+	border-radius: 90%;
+	opacity: 0;
+	transition: opacity 0.3s ease-in;
+}
+
+.social_parent {
+	cursor: grab; 
+}
+.social_parent:active {
+	cursor: grabbing;
+}

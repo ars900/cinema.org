@@ -1,0 +1,38 @@
+# Turn rewriting on
+RewriteEngine On
+# Redirect requests to index.php
+RewriteCond %{REQUEST_URI} !=/index.php
+
+RewriteCond %{REQUEST_URI} !.*\.js$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.css$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.png$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.jpe$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.jpeg$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.jpg$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.gif$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.svg$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.webp$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.bmp$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.cod$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.ief$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.jfif$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.pjpeg$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.pjp$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.tif$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.tiff$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.ras$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.cmx$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.ico$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.cur$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.pnm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.pbm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.pgm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.ppm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.rgb$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.xbm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.xpm$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.xwd$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.apng$ [NC]
+RewriteCond %{REQUEST_URI} !.*\.avif$ [NC]
+
+RewriteRule .* /index.php

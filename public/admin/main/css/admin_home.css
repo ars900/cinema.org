@@ -1,0 +1,46 @@
+.pointer{
+	cursor: pointer;
+}
+
+.list_none{
+	list-style:none;
+}
+
+.container_padding{
+	padding: 0px 0px 176px 7px;
+}
+
+.remove{
+	bottom: -38px;
+	left: 0;
+}
+
+.edit{
+	bottom: -38px;
+	right: 0;
+	width:81px;
+}
+
+.edit_icon{
+	bottom: -45px;
+    right: 0;
+}
+
+.margin_top_err{
+	margin-top:-24px;
+}
+
+.margin_top_err_file{
+	margin-top:-32px;
+}
+
+.row{
+	border-bottom: unset;
+}
+
+th{
+	border-top:unset!important;
+	background: silver!important;
+	color: #fff;
+}
+
